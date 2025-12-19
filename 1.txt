@@ -1,4 +1,0 @@
-from sklearn.model_selection import train_test_split
-X_train,Y_train,X_test,Y_test = train_test_split(df_dropped.iloc[:,0:12],df_dropped.iloc[:,-1],test_size=0.2,random_state=0)
-
-X_train
